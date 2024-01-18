@@ -1,4 +1,4 @@
-#include "../Include/Input.hpp"
+#include "Input.hpp"
 
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods) {
     (void)scancode;

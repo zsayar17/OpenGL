@@ -1,8 +1,8 @@
 #ifndef __INPUT_HPP__
 #define __INPUT_HPP__
 
-#include "../Essantials/glad/glad.h"
-#include "../Essantials/Glfw/include/GLFW/glfw3.h"
+#include "../../Essantials/glad/glad.h"
+#include "../../Essantials/Glfw/include/GLFW/glfw3.h"
 #include <iostream>
 
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods);

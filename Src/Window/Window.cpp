@@ -1,4 +1,6 @@
-#include "../Include/Window.hpp"
+#include "Window.hpp"
+#include <unistd.h>
+#include <cstdlib>
 
 // Static methods
 Window* Window::createNewWindow(int width, int height, const std::string& window_name) {
@@ -8,7 +10,7 @@ Window* Window::createNewWindow(int width, int height, const std::string& window
         window = new Window(width, height, window_name);
     } catch (const std::exception& e) {
         std::cerr << e.what() << std::endl;
-        exit(EXIT_FAILURE);
+        exit(1);
     }
     return window;
 }

@@ -1,10 +1,11 @@
 #ifndef __WINDOW_HPP__
 #define __WINDOW_HPP__
 
-#include "../Essantials/glad/glad.h"
-#include "../Essantials/Glfw/include/GLFW/glfw3.h"
-#include "Exceptions.hpp"
-#include "Input.hpp"
+#include "../../Essantials/glad/glad.h"
+#include "../../Essantials/Glfw/include/GLFW/glfw3.h"
+
+#include "../Utilis/Exceptions.hpp"
+#include "../Utilis/Input.hpp"
 
 #include <iostream>
 
